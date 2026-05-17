@@ -5,20 +5,42 @@
     <title>My Tweets</title>
 </head>
 <body>
-    <h1>Embedded Tweet</h1>
+    <header>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">
-            Just setting up my twttr
+    <main>
+        <article>
+            <h1>Embedded Tweet</h1>
+
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">
+                    Just setting up my twttr
+                </p>
+                &mdash; jack (@jack)
+                <a href="https://twitter.com/jack/status/20">March 21, 2006</a>
+            </blockquote>
+
+            <script async src="https://platform.twitter.com/widgets.js"></script>
+
+            <p>
+                <a href="index.html">Back to Homepage</a>
+            </p>
+        </article>
+
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>
+            Made by Sangwe Eddy Kelly -
+            <a href="https://github.com" target="_blank">here</a>
         </p>
-        &mdash; jack (@jack)
-        <a href="https://twitter.com/jack/status/20">March 21, 2006</a>
-    </blockquote>
-
-    <script async src="https://platform.twitter.com/widgets.js"></script>
-
-    <p>
-        <a href="index.html">Back to Homepage</a>
-    </p>
+    </footer>
 </body>
 </html>
