@@ -1,6 +1,6 @@
 # HTML, advanced
 
-![Homepage wireframe](./wireframe.jpg)
+![Homepage wireframe](./wireframe.png)
 
 ## Description
 
