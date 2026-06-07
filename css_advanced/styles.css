@@ -285,3 +285,60 @@ header {
     color: var(--color-primary);
     font-size: 14px;
 }
+
+/* ===== Membership section ===== */
+.membership {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.membership > h2 {
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+
+.membership > h2 span {
+    color: var(--color-primary);
+}
+
+.membership-list {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.member-item {
+    width: 22%;
+}
+
+.member-item img {
+    width: 30px;
+    margin: 0 auto 20px;
+}
+
+.member-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.member-item p {
+    font-size: 14px;
+}
+
+.membership button {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
